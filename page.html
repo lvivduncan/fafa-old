@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> Внутренняя страница - Aвто из США!</title>
+    <meta name="description" content="">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+</head>
+<body>
+
+    <div class="body-inner">
+
+        <header id="header" data-transparent="true" data-fullwidth="true" class="dark">
+            <div class="header-inner">
+                <div class="container">
+
+                    <div id="logo">
+                        <a href="#" class="logo" data-src-dark="images/logo-dark.png">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <!-- #Logo-->
+
+
+                    <div id="search">
+                        <div id="search-logo"><img src="images/logo.png" alt=""></div>
+                        <button id="btn-search-close" class="btn-search-close" aria-label="Закрыть форму поиска">
+                            <i class="icon-x"></i>
+                        </button>
+                        <form class="search-form" action="search-results-page.html" method="get">
+                            <input class="form-control" name="q" type="search" placeholder="Поиск..."
+                                autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                            <span class="text-muted">Введите стово или фразу и нажмите "Enter" или "ESC" чтобы закрыть</span>
+                        </form>
+
+                        <div class="search-suggestion-wrapper">
+
+                            <div class="search-suggestion">
+                                <h3>Быстрый поиск</h3>
+                                <p><a href="#">Как заказать автомобиль, который я хочу?</a></p>
+                                <p><a href="#">Сколько сторит разтаможка?</a></p>
+                                <p><a href="#">Как быстро вы можете доставить автомобиль?</a></p>
+                            </div>
+                            <div class="search-suggestion">
+                                <h3>Вопрос-ответ</h3>
+                                <p><a href="#">Как заказать автомобиль, который я хочу?</a></p>
+                                <p><a href="#">Сколько сторит разтаможка?</a></p>
+                                <p><a href="#">Как быстро вы можете доставить автомобиль?</a></p>
+                            </div>
+                            <div class="search-suggestion">
+                                <h3>Последние сообщения</h3>
+                                <p><a href="#">Как заказать автомобиль, который я хочу?</a></p>
+                                <p><a href="#">Сколько сторит разтаможка?</a></p>
+                                <p><a href="#">Как быстро вы можете доставить автомобиль?</a></p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- #search -->
+
+
+                    <div class="header-extras">
+                        <ul>
+                            <li>
+                                <a id="btn-search" href="#"> <i class="icon-search1"></i></a>
+                            </li>
+
+                            <li>
+                                <a id="btn-phone" href="#"> <i class="icon-phone-call"></i></a>
+                            </li>  
+
+                            <li class="d-none d-sm-block">
+                                <div id="shopping-cart" class="p-dropdown">
+
+                                    <i class="icon-phone-call"></i>
+
+                                    <div class="p-dropdown-content ">
+                                        <div class="widget-mycart">
+
+                                            <h4>Быстрая связь</h4>
+
+                                            <p>+38.07373.54321</p>
+                                            <p>Работаем без выходных!</p>
+                                            <p>Одесса, ул. Название, 1</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- #shopping-cart -->
+
+                            <li>
+                                <div class="p-dropdown">
+                                    <a href="#"><i class="icon-flag11"></i></a>
+                                    <ul class="p-dropdown-content">
+                                        <li><a href="#">Русский</a></li>
+                                        <li><a href="#">French</a></li>
+                                        <li><a href="#">German</a></li>
+                                        <li><a href="#">English</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- .header-extras -->
+
+
+                    <div id="mainMenu-trigger">
+                        <button class="lines-button x"> <span class="lines"></span> </button>
+                    </div>
+                    <!-- #mainMenu-trigger -->
+
+
+                    <div id="mainMenu" class="menu-uppercase">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li><a href="#">О нас</a></li>
+                                    
+                                    <li class="dropdown"> <a href="#">Услуги</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Выбор и покупка</a></li>
+                                            <li><a href="#">Доставка</a></li>
+                                            <li><a href="#">Растаможка</a></li>
+                                            <li><a href="#">Наши преимущества</a></li>
+                                            <li><a href="#">Сохраним груз</a></li>
+                                            <li><a href="#">Доверие клиентов</a></li>
+                                            <li><a href="#">Широкий выбор</a></li>
+                                            <li><a href="#">Помощь 24/7</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="dropdown"> <a href="#">Авто из США, Канады и ЕС</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Выбор и покупка</a></li>
+                                            <li><a href="#">Аукцион США – Copart</a></li>
+                                            <li><a href="#">Авто из Литвы – Autoplius</a></li>
+                                            <li><a href="#">Авто из ЕС – Autoscout24</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="dropdown"> <a href="#">Блог</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Новости рынка</a></li>
+                                            <li><a href="#">Продажа бу автомобилей</a></li>
+                                            <li><a href="#">Процедура покупки бу Машин в Украине</a></li>
+                                        </ul>
+                                    </li>                                    
+
+                                    <li><a href="#">Калькулятор разтаможки</a></li>
+                                    <li><a href="#">Контакты</a></li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- #mainMenu-->
+
+                </div>
+            </div>
+        </header>
+        <!-- #Header -->
+
+
+
+
+        
+
+
+        <main id="main">
+
+            <section id="page-title" class="text-light background-overlay-dark" data-parallax-image="images/parallax.jpg">
+                <div class="container">
+                    <div class="breadcrumb">
+                        <ul>
+                            <li><a href="#">Главная</a> </li>
+                            <li><a href="#">Услуги</a> </li>
+                            <li class="active"><a href="#">Выбор и покупка</a> </li>
+                        </ul>
+                    </div>
+                    <div class="page-title">
+                        <h1>Выбор и покупка</h1>
+                    </div>
+                </div>
+            </section>
+            <!-- #page-title -->
+
+            <section class="p-b-30">
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="heading-text heading-section">
+                                <h2>Выбор и покупка</h2>
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-8" id="post">
+
+                            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+
+                            <p><img src="temp/01.jpg" alt=""></p>
+
+                            <p> В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</p>
+
+                            <p>Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur", и занялся его поисками в классической латинской литературе. В результате он нашёл неоспоримый первоисточник Lorem Ipsum в разделах 1.10.32 и 1.10.33 книги "de Finibus Bonorum et Malorum" ("О пределах добра и зла"), написанной Цицероном в 45 году н.э. Этот трактат по теории этики был очень популярен в эпоху Возрождения. Первая строка Lorem Ipsum, "Lorem ipsum dolor sit amet..", происходит от одной из строк в разделе 1.10.32</p>                            
+                            <p><strong> Классический текст Lorem Ipsum, используемый с XVI века, приведён ниже. Также даны разделы 1.10.32 и 1.10.33 "de Finibus Bonorum et Malorum" Цицерона и их английский перевод, сделанный H. Rackham, 1914 год.</strong></p>
+
+                            <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
+
+                            <p>Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. Также все другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют, пока не достигнут нужный объём. Это делает предлагаемый здесь генератор единственным настоящим Lorem Ipsum генератором. Он использует словарь из более чем 200 латинских слов, а также набор моделей предложений. В результате сгенерированный Lorem Ipsum выглядит правдоподобно, не имеет повторяющихся абзацей или "невозможных" слов.
+
+                                </p>
+
+                            <hr>
+
+                            <h3>Есть вопросы?</h3>
+                            <p>Зполните поля и мы ответим в самом cкором времени!</p>
+                            
+                            <form>
+
+                                <div class="form-group row">
+                                    <label for="name" class="col-2 col-form-label text-right pt-10">Имя</label>
+                                    <div class="col-10">
+                                        <input class="form-control" id="name" placeholder="Имя" type="text">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="mail" class="col-2 col-form-label text-right pt-10">Email</label>
+                                    <div class="col-10">
+                                        <input class="form-control" id="mail" aria-describedby="emailHelp" placeholder="Email" type="email">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="phone" class="col-2 col-form-label text-right pt-10">Телефон</label>
+                                    <div class="col-10">
+                                        <input class="form-control" id="phone" placeholder="Телефон" type="Телефон">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="message" class="col-2 col-form-label text-right pt-10">Сообщение</label>
+                                    <div class="col-10">
+                                        <textarea name="" class="form-control" id="message" placeholder="Сообщение"></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn m-t-30 mt-3">Отправить</button>
+
+                            </form>
+
+                        </div>
+
+                        <div class="col-lg-4 sidebar sticky-sidebar">
+
+                            <ul class="list-icon list-icon-uncheck list-icon-colored">
+                                <li><a href="#">Выбор и покупка</a></li>
+                                <li><a href="#">Доставка</a></li>
+                                <li><a href="#">Растаможка</a></li>
+                                <li><a href="#">Наши преимущества</a></li>
+                                <li><a href="#">Сохраним груз</a></li>
+                                <li><a href="#">Доверие клиентов</a></li>
+                                <li><a href="#">Широкий выбор</a></li>
+                                <li><a href="#">Помощь 24/7</a></li>
+                            </ul>
+
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <!-- #main -->
+
+
+
+
+
+
+
+
+        <footer id="footer" class="inverted">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="widget">
+                                <div class="widget-title"><img src="images/logo.png" alt="Polo Logo"></div>
+                                <p class="desc">Aвто из США. Мы поможем  подобрать и оформить автомобиль, который идеально подойдет именно Вам. Без переплат и наценок, потому что мы ценим каждого клиента. И его деньги тоже.</p>
+                            </div>
+                        </div> 
+                        <div class="col-lg-7">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="widget">
+                                        <div class="widget-title">Меню</div>
+                                        <ul class="list">
+                                            <li><a href="#">О нас</a></li>
+                                            <li><a href="#">Услуги</a></li>
+                                            <li><a href="#">Авто из США, Канады и ЕС</a></li>
+                                            <li><a href="#">Блог</a></li>                                    
+                                            <li><a href="#">Калькулятор разтаможки</a></li>
+                                            <li><a href="#">Контакты</a></li>
+                                        </ul>
+                                    </div>  
+                                </div>
+                
+                                <div class="col-lg-6">
+                                    <div class="widget">
+                                        <div class="widget-title">Контакты</div>
+                                        <ul class="list">                                           
+                                            <li>Украина, г. Одесса </li>
+                                            <li>support@fafa.ua</li>
+                                            <li>Работаем 24/7</li>
+                                        </ul>
+                                    </div>
+                                    <div class="social-icons social-icons-colored">
+                                        <ul>
+                                            <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                            <li class="social-instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                            <li class="social-skype"><a href="#"><i class="fab fa-skype"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-content">
+                <div class="container">
+                    <div class="copyright-text text-center">&copy; 2017-2019 <a href=""> Aвто из США </a></div>
+                </div>
+            </div>
+        </footer>
+        <!-- #footer -->
+
+    </div>
+
+    <div id="robot">
+        <a href="javascript:;" class="wiggle">
+            <img src="images/robot.png" alt="">
+        </a>
+        <span>Есть вопросы?</span>
+        <i class="cls">
+            &#10006;
+        </i>
+    </div>
+    <!-- #robot -->
+
+    <div id="question">
+        <a href="javascript:;">
+            <i class="fa fa-question"></i>
+        </a>
+    </div>
+    <!-- #question -->
+    
+    <a id="scrollTop">
+        <i class="icon-chevron-up1"></i>
+        <i class="icon-chevron-up1"></i>
+    </a>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/functions.js"></script>
+</body>
+
+</body>
+</html>

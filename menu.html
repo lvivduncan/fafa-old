@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> Service - Aвто из США!</title>
+    <meta name="description" content="">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+</head>
+
+<body>
+    <div class="body-inner">
+
+		 <!-- Topbar -->
+        <div id="topbar" class="topbar-transparent topbar-fullwidth dark d-none d-xl-block d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="top-menu">
+                            <li><a href="#">Phone: +1 (234) 567-890</a></li>
+                            <li><a href="#">Email: contact@inspiro-media.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 d-none d-sm-block">
+                        <div class="social-icons social-icons-colored-hover">
+                            <ul>
+                                <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li class="social-google"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li class="social-pinterest"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                <li class="social-vimeo"><a href="#"><i class="fab fa-vimeo"></i></a></li>
+                                <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li class="social-dribbble"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li class="social-rss"><a href="#"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Topbar -->
+
+        <header id="header" data-transparent="true" data-fullwidth="true" class="dark">
+                <div class="header-inner">
+                    <div class="container">
+    
+                        <div id="logo">
+                            <a href="#" class="logo" data-src-dark="images/logo-dark.png">
+                                <img src="images/logo.png" alt="">
+                            </a>
+                        </div>
+                        <!-- #Logo-->
+    
+    
+                        <div id="search">
+                            <div id="search-logo"><img src="images/logo.png" alt=""></div>
+                            <button id="btn-search-close" class="btn-search-close" aria-label="Закрыть форму поиска">
+                                <i class="icon-x"></i>
+                            </button>
+                            <form class="search-form" action="search-results-page.html" method="get">
+                                <input class="form-control" name="q" type="search" placeholder="Поиск..."
+                                    autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                                <span class="text-muted">Введите стово или фразу и нажмите "Enter" или "ESC" чтобы закрыть</span>
+                            </form>
+    
+                            <div class="search-suggestion-wrapper">
+    
+                                <div class="search-suggestion">
+                                    <h3>Быстрый поиск</h3>
+                                    <p><a href="#">Как заказать автомобиль, который я хочу?</a></p>
+                                    <p><a href="#">Сколько сторит разтаможка?</a></p>
+                                    <p><a href="#">Как быстро вы можете доставить автомобиль?</a></p>
+                                </div>
+                                <div class="search-suggestion">
+                                    <h3>Вопрос-ответ</h3>
+                                    <p><a href="#">Как заказать автомобиль, который я хочу?</a></p>
+                                    <p><a href="#">Сколько сторит разтаможка?</a></p>
+                                    <p><a href="#">Как быстро вы можете доставить автомобиль?</a></p>
+                                </div>
+                                <div class="search-suggestion">
+                                    <h3>Последние сообщения</h3>
+                                    <p><a href="#">Как заказать автомобиль, который я хочу?</a></p>
+                                    <p><a href="#">Сколько сторит разтаможка?</a></p>
+                                    <p><a href="#">Как быстро вы можете доставить автомобиль?</a></p>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <!-- #search -->
+    
+    
+                        <div class="header-extras">
+                            <ul>
+                                <li>
+                                    <a id="btn-search" href="#"> <i class="icon-search1"></i></a>
+                                </li>
+    
+                                <li>
+                                    <a id="btn-phone" href="#"> <i class="icon-phone-call"></i></a>
+                                </li>  
+    
+                                <li class="d-none d-sm-block">
+                                    <div id="shopping-cart" class="p-dropdown">
+    
+                                        <i class="icon-phone-call"></i>
+    
+                                        <div class="p-dropdown-content ">
+                                            <div class="widget-mycart">
+    
+                                                <h4>Быстрая связь</h4>
+    
+                                                <p>+38.07373.54321</p>
+                                                <p>Работаем без выходных!</p>
+                                                <p>Одесса</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- #shopping-cart -->
+    
+                                <li>
+                                    <div class="p-dropdown">
+                                        <a href="#"><i class="icon-flag11"></i></a>
+                                        <ul class="p-dropdown-content">
+                                            <li><a href="#">Русский</a></li>
+                                            <li><a href="#">French</a></li>
+                                            <li><a href="#">German</a></li>
+                                            <li><a href="#">English</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- .header-extras -->
+    
+    
+                        <div id="mainMenu-trigger">
+                            <button class="lines-button x"> <span class="lines"></span> </button>
+                        </div>
+                        <!-- #mainMenu-trigger -->
+    
+    
+                        <div id="mainMenu" class="menu-uppercase">
+                            <div class="container">
+                                <nav>
+                                    <ul>
+                                        <li><a href="#">О нас</a></li>
+                                        
+                                        <li class="dropdown"> <a href="#">Услуги</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Выбор и покупка</a></li>
+                                                <li><a href="#">Доставка</a></li>
+                                                <li><a href="#">Растаможка</a></li>
+                                                <li><a href="#">Наши преимущества</a></li>
+                                                <li><a href="#">Сохраним груз</a></li>
+                                                <li><a href="#">Доверие клиентов</a></li>
+                                                <li><a href="#">Широкий выбор</a></li>
+                                                <li><a href="#">Помощь 24/7</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="dropdown"> <a href="#">Авто из США, Канады и ЕС</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Выбор и покупка</a></li>
+                                                <li><a href="#">Аукцион США – Copart</a></li>
+                                                <li><a href="#">Авто из Литвы – Autoplius</a></li>
+                                                <li><a href="#">Авто из ЕС – Autoscout24</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="dropdown"> <a href="#">Блог</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Новости рынка</a></li>
+                                                <li><a href="#">Продажа бу автомобилей</a></li>
+                                                <li><a href="#">Процедура покупки бу Машин в Украине</a></li>
+                                            </ul>
+                                        </li>                                    
+    
+                                        <li><a href="#">Калькулятор разтаможки</a></li>
+                                        <li><a href="#">Контакты</a></li>
+    
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- #mainMenu-->
+    
+                    </div>
+                </div>
+        </header>
+        <!-- #Header -->
+
+
+        <main id="main">
+
+                <section id="page-title" class="text-light background-overlay-dark" data-parallax-image="images/parallax.jpg">
+                    <div class="container">
+                        <div class="breadcrumb">
+                            <ul>
+                                <li><a href="#">Главная</a> </li>
+                                <li><a href="#">Услуги</a> </li>
+                                <li class="active"><a href="#">Выбор и покупка</a> </li>
+                            </ul>
+                        </div>
+                        <div class="page-title">
+                            <h1>Выбор и покупка</h1>
+                        </div>
+                    </div>
+                </section>
+                <!-- #page-title -->
+    
+                <section class="p-b-30">
+                    <div class="container">
+    
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="heading-text heading-section">
+                                    <h2>Выбор и покупка</h2>
+                                </div>    
+                            </div>
+                        </div>
+    
+                        <div class="row">
+
+                            <div class="col-lg-12">
+                                <h5> <a href="">1 Width (col-lg-12)</a> </h5>
+                                <p>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum stie. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum.</p>
+                            </div>
+    
+                            <div class="col-lg-6">
+                                <h5> <a href="">1/2 Width (col-lg-6)</a> </h5>
+                                <p>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum stie.</p>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <h5>1/2 Width (col-lg-6)</h5> 
+                                <p>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum stie.</p>
+                            </div>
+    
+                            <div class="col-lg-4">
+                                <h5>1/3 Width (col-lg-4)</h5>
+                                <p>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum stie. </p> 
+                            </div>
+                            <div class="col-lg-4">
+                                <h5>1/3 Width (col-lg-4)</h5>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum stie. </div>
+                            <div class="col-lg-4">
+                                <h5>1/3 Width (col-lg-4)</h5>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum stie.
+                            </div>
+    
+                            <div class="col-lg-3">
+                                <h5>1/4 Width (col-lg-3)</h5>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum stie.
+                            </div>
+    
+                            <div class="col-lg-3">
+                                <h5>1/4 Width (col-lg-3)</h5>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum stie.
+                            </div>
+    
+                            <div class="col-lg-3">
+                                <h5>1/4 Width (col-lg-3)</h5>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum stie.
+                            </div>
+    
+                            <div class="col-lg-3">
+                                <h5>1/4 Width (col-lg-3)</h5>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum stie.
+                            </div>
+    
+                            <div class="col-lg-4">
+                                <h5>1/3 Width (col-lg-4)</h5>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum stie.
+                            </div>
+    
+                            <div class="col-lg-8">
+                                <h5>2/3 Width (col-lg-8)</h5>Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum stie.
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+    
+            </main>
+            <!-- #main -->
+
+
+
+        <!-- Footer -->
+  <footer id="footer">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                            <div class="col-lg-5">
+                                    <div class="widget">
+                                
+                                            <div class="widget-title">Polo HTML5 Template</div>
+                                                <p class="mb-5">Built with love in Fort Worth, Texas, USA<br>
+                                                All rights reserved. Copyright © 2019. INSPIRO.</p>
+                                                <a href="https://themeforest.net/item/polo-responsive-multipurpose-html5-template/13708923" class="btn btn-inverted">Purchase Now</a>
+                                    </div>
+                        </div> <div class="col-lg-7">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                        <div class="widget">
+                                            <div class="widget-title">Discover</div>
+                                            <ul class="list">                                           
+                                                    <li><a href="#">Features</a></li>
+                                                    <li><a href="#">Layouts</a></li>
+                                                    <li><a href="#">Corporate</a></li>
+                                                    <li><a href="#">Updates</a></li>
+                                                    <li><a href="#">Pricing</a></li>
+                                                    <li><a href="#">Customers</a></li>
+                                                </ul>
+                                        </div>  
+                                    </div>
+
+                                        <div class="col-lg-3">
+                                                <div class="widget">
+                                                    <div class="widget-title">Features</div>
+                                                    <ul class="list">                                           
+                                                            <li><a href="#">Layouts</a></li>
+                                                            <li><a href="#">Headers</a></li>
+                                                            <li><a href="#">Widgets</a></li>
+                                                            <li><a href="#">Footers</a></li>
+                                                        </ul>
+                                                </div>  
+                                            </div>
+                                
+                                                <div class="col-lg-3">
+                                                        <div class="widget">
+                                                            <div class="widget-title">Pages</div>
+                                                            <ul class="list">                                           
+                                                                    <li><a href="#">Portfolio</a></li>
+                                                                    <li><a href="#">Blog</a></li>
+                                                                    <li><a href="#">Shop</a></li>
+                                                                </ul>
+                                                        </div>  
+                                                    </div>
+                                                    <div class="col-lg-3">
+                                                            <div class="widget">
+                                                                <div class="widget-title">Support</div>
+                                                                <ul class="list">                                           
+                                                                        <li><a href="#">Help Desk</a></li>
+                                                                        <li><a href="#">Documentation</a></li>
+                                                                        <li><a href="#">Contact Us</a></li>
+                                                                    </ul>
+                                                            </div>  
+                                                        </div>
+                            </div>
+                        </div>
+                
+
+                </div>
+                </div>
+            </div>
+            <div class="copyright-content">
+                <div class="container">
+                    <div class="copyright-text text-center">&copy; 2019 POLO -  Responsive Multi-Purpose HTML5 Template. All Rights Reserved.<a href="http://www.inspiro-media.com" target="_blank"> INSPIRO</a> </div>
+                </div>
+            </div>
+        </footer>
+  <!-- end: Footer -->
+    </div>
+    <!-- end: Body Inner -->
+
+    <!-- Scroll top -->
+    <a id="scrollTop"><i class="icon-chevron-up1"></i><i class="icon-chevron-up1"></i></a>
+<!--Plugins-->
+ <script src="js/jquery.js"></script>
+ <script src="js/plugins.js"></script>
+
+<!--Template functions-->
+ <script src="js/functions.js"></script> 
+
+</body>
+
+</html>

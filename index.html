@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> Aвто из США!</title>
+    <meta name="description" content="">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+</head>
+
+<body>
+
+
+    <div class="body-inner">
+
+        <header id="header" data-transparent="true" data-fullwidth="true" class="dark">
+            <div class="header-inner">
+                <div class="container">
+
+                    <div id="logo">
+                        <a href="#" class="logo" data-src-dark="images/logo-dark.png">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <!-- #Logo-->
+
+
+                    <div id="search">
+                        <div id="search-logo"><img src="images/logo.png" alt=""></div>
+                        <button id="btn-search-close" class="btn-search-close" aria-label="Закрыть форму поиска">
+                            <i class="icon-x"></i>
+                        </button>
+                        <form class="search-form" action="search-results-page.html" method="get">
+                            <input class="form-control" name="q" type="search" placeholder="Поиск..."
+                                autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                            <span class="text-muted">Введите стово или фразу и нажмите "Enter" или "ESC" чтобы закрыть</span>
+                        </form>
+
+                        <div class="search-suggestion-wrapper">
+
+                            <div class="search-suggestion">
+                                <h3>Быстрый поиск</h3>
+                                <p><a href="#">Как заказать автомобиль, который я хочу?</a></p>
+                                <p><a href="#">Сколько сторит разтаможка?</a></p>
+                                <p><a href="#">Как быстро вы можете доставить автомобиль?</a></p>
+                            </div>
+                            <div class="search-suggestion">
+                                <h3>Вопрос-ответ</h3>
+                                <p><a href="#">Как заказать автомобиль, который я хочу?</a></p>
+                                <p><a href="#">Сколько сторит разтаможка?</a></p>
+                                <p><a href="#">Как быстро вы можете доставить автомобиль?</a></p>
+                            </div>
+                            <div class="search-suggestion">
+                                <h3>Последние сообщения</h3>
+                                <p><a href="#">Как заказать автомобиль, который я хочу?</a></p>
+                                <p><a href="#">Сколько сторит разтаможка?</a></p>
+                                <p><a href="#">Как быстро вы можете доставить автомобиль?</a></p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- #search -->
+
+
+                    <div class="header-extras">
+                        <ul>
+                            <li>
+                                <a id="btn-search" href="#"> <i class="icon-search1"></i></a>
+                            </li>
+
+                            <li>
+                                <a id="btn-phone" href="#"> <i class="icon-phone-call"></i></a>
+                            </li>  
+
+                            <li class="d-none d-sm-block">
+                                <div id="shopping-cart" class="p-dropdown">
+
+                                    <i class="icon-phone-call"></i>
+
+                                    <div class="p-dropdown-content ">
+                                        <div class="widget-mycart">
+
+                                            <h4>Быстрая связь</h4>
+
+                                            <p>+38.07373.54321</p>
+                                            <p>Работаем без выходных!</p>
+                                            <p>Одесса, ул. Название, 1</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- #shopping-cart -->
+
+                            <li>
+                                <div class="p-dropdown">
+                                    <a href="#"><i class="icon-flag11"></i></a>
+                                    <ul class="p-dropdown-content">
+                                        <li><a href="#">Русский</a></li>
+                                        <li><a href="#">French</a></li>
+                                        <li><a href="#">German</a></li>
+                                        <li><a href="#">English</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- .header-extras -->
+
+
+                    <div id="mainMenu-trigger">
+                        <button class="lines-button x"> <span class="lines"></span> </button>
+                    </div>
+                    <!-- #mainMenu-trigger -->
+
+
+                    <div id="mainMenu" class="menu-uppercase">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li><a href="#">О нас</a></li>
+                                    
+                                    <li class="dropdown"> <a href="#">Услуги</a>
+                                        <ul class="dropdown-menu">
+											<li><a href="#">Выбор и покупка</a></li>
+                                            <li><a href="#">Доставка</a></li>
+                                            <li><a href="#">Растаможка</a></li>
+                                            <li><a href="#">Наши преимущества</a></li>
+                                            <li><a href="#">Сохраним груз</a></li>
+                                            <li><a href="#">Доверие клиентов</a></li>
+                                            <li><a href="#">Широкий выбор</a></li>
+                                            <li><a href="#">Помощь 24/7</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="dropdown"> <a href="#">Авто из США, Канады и ЕС</a>
+                                        <ul class="dropdown-menu">
+											<li><a href="#">Выбор и покупка</a></li>
+                                            <li><a href="#">Аукцион США – Copart</a></li>
+                                            <li><a href="#">Авто из Литвы – Autoplius</a></li>
+                                            <li><a href="#">Авто из ЕС – Autoscout24</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="dropdown"> <a href="#">Блог</a>
+                                        <ul class="dropdown-menu">
+											<li><a href="#">Новости рынка</a></li>
+                                            <li><a href="#">Продажа бу автомобилей</a></li>
+                                            <li><a href="#">Процедура покупки бу Машин в Украине</a></li>
+                                        </ul>
+                                    </li>                                    
+
+                                    <li><a href="#">Калькулятор разтаможки</a></li>
+                                    <li><a href="#">Контакты</a></li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- #mainMenu-->
+
+                </div>
+            </div>
+        </header>
+        <!-- #Header -->
+
+
+        <div id="slider" class="inspiro-slider slider-fullscreen arrows-large arrows-creative dots-creative">
+
+
+            <div class="slide background-overlay-gradient kenburns background-image" style="background-image:url('images/slider/1.jpg');">
+                <div class="container">
+                    <div class="slide-captions text-left text-light">
+                        <h1>Разтаможка авто на еврономерах!</h1>
+                        <p>Автор уверен, что дизайн является решением задач, а не творчеством.</p>
+                        <a href="#welcome" class="btn scroll-to" >Смотреть</a>
+                    </div>
+                </div>
+            </div>
+            <!-- .slide -->
+
+
+            <div class="slide background-overlay-gradient kenburns background-image" style="background-image:url('images/slider/2.jpg');">
+                <div class="container">
+                    <div class="slide-captions text-left text-light">
+                        <h1>Автоамерика покупка и доставка б/у автомобилей из США</h1>
+                        <p class="text-small">Дизайнер, который считает, что дизайн — это когда надо сделать красиво, просто не понимает смысла профессии.</p>
+                        <a href="#welcome" class="btn scroll-to" >Заказать сейчас</a>
+                    </div>
+                </div>
+            </div>
+            <!-- .slide -->
+
+            <div class="slide background-overlay-gradient kenburns background-image" style="background-image:url('images/slider/3.jpg');">
+                <div class="container">
+                    <div class="slide-captions text-left text-light">
+                        <h1>Авто из США недорого!</h1>
+                        <a href="#welcome" class="btn scroll-to" >Купить!</a>
+                    </div>
+                </div>
+            </div>
+            <!-- .slide -->
+
+        </div>
+        <!-- #slider -->
+
+
+        <section id="welcome" class="box-fancy section-fullwidth text-light p-b-0 p-t-0">
+            <div class="row">
+                <div style="background-color:rgba(180,84,53,1)" class="col-lg-3 col-sm-6">
+                    <h1 class="text-lg text-uppercase">01.</h1>
+                    <h3>Определяемся с авто</h3>
+                    <span>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </span>
+                </div>
+
+                <div style="background-color:rgba(180,84,53,0.9)" class="col-lg-3 col-sm-6">
+                    <h1 class="text-lg text-uppercase">02.</h1>
+                    <h3>Устанавливаем бюджет</h3>
+                    <span>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </span>
+                </div>
+
+                <div style="background-color:rgba(180,84,53,0.8)" class="col-lg-3 col-sm-6">
+                    <h1 class="text-lg text-uppercase">03.</h1>
+                    <h3>Предоплата 10%</h3>
+                    <span>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </span>
+                </div>
+
+                <div style="background-color:rgba(180,84,53,0.7)" class="col-lg-3 col-sm-6">
+                    <h1 class="text-lg text-uppercase">04.</h1>
+                    <h3>Забираем автомобиль</h3>
+                    <span>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </span>
+                </div>
+                
+            </div>
+        </section>
+        <!-- #welcome -->
+
+
+        <section id="services" class="background-overlay-dark" data-parallax-image="images/slider/4.jpg">
+            <div class="container text-light">
+                
+                <div class="heading-text text-center">
+                    <h2>Гарантии</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p> -->
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6" data-animate="fadeInUp" data-animate-delay="400">
+                        <div class="icon-box effect medium border small">
+                            <div class="icon">
+                                <a href="#">
+                                    <i class="fa fa-umbrella"></i></i></a>
+                            </div>
+                            <h3>Сохраним груз</h3>
+                            <p>У нас только безопасная доставка авто из Америки в Украину, а также из Европы</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" data-animate="fadeInUp" data-animate-delay="0">
+                        <div class="icon-box effect medium border small">
+                            <div class="icon">
+                                <a href="#"><i class="fa fa-thumbs-up"></i></a>
+                            </div>
+                            <h3>Доверие клиентов</h3>
+                            <p>Множество клиентов, воспользовавшихся нашими услугами, остались довольными услугами нашей компании!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-animate="fadeInUp" data-animate-delay="200">
+                        <div class="icon-box effect medium border small">
+                            <div class="icon">
+                                <a href="#"><i class="fa fa-chess-board"></i></a>
+                            </div>
+                            <h3>Широкий выбор</h3>
+                            <p>Работая с главными аукционами авто в США мы предлагаем самый широкий выбор б/у автомобилей.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" data-animate="fadeInUp" data-animate-delay="600">
+                        <div class="icon-box effect medium border small">
+                            <div class="icon">
+                                <a href="#"><i class="far fa-bell"></i></a>
+                            </div>
+                            <h3>Помощь 24/7</h3>
+                            <p>Наши менеджеры в телефонном режиме предоставят полную консультацию клиентам по покупке.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- #services -->
+
+
+        <section id="about" class="p-b-10">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="heading-text heading-section">
+                            <h2>О компании</h2>
+                            <span class="lead">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 m-t-60">
+
+                        <iframe width="1189" height="669" src="https://www.youtube.com/embed/CayFj5cMEMs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- #about -->
+
+
+        <section id="advantage" class="section-video text-light" data-vide-bg="video/video" data-vide-options="position: 0% 50%">
+            <div class="fluid-container">
+                <div class="heading-text text-center text-light">
+                    <h2>Наши преимущества</h2>
+                </div>                
+                <div class="row align-items-center">
+
+                    <div class="col-lg-2 col-md-4">
+                        <div class="icon-box medium fancy">
+                            <div class="icon visible">
+                                <i class="fa fa-car"></i>
+                            </div>
+                            <h3>Широкий выбор</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4">
+                        <div class="icon-box medium fancy">
+                            <div class="icon visible"> 
+                                <i class="fa fa-clipboard-list"></i>
+                            </div>
+                            <h3>Рекомендации по выбранному автомобилю</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4">
+                        <div class="icon-box medium fancy">
+                            <div class="icon visible"> 
+                                <i class="fa fa-cart-arrow-down"></i>
+                            </div>
+                            <h3>Покупка, доставка и таможенное оформление</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4">
+                        <div class="icon-box medium fancy">
+                            <div class="icon visible"> 
+                                <i class="fa fa-archive"></i>
+                            </div>
+                            <h3>Сохранность груза</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4">
+                        <div class="icon-box medium fancy">
+                            <div class="icon visible"> 
+                                <i class="fa fa-anchor"></i>
+                            </div>
+                            <h3>Проверка и передача авто владельцу</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4">
+                        <div class="icon-box medium fancy">
+                            <div class="icon visible"> 
+                                <i class="fa fa-bell"></i>
+                            </div>
+                            <h3>помощь 24/7</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- #advantage -->
+
+        
+        <section id="benefit" class="content background-grey m-t-0 m-b-0">
+            <div class="fluid-container text-center">
+                
+                <div class="heading-text heading-section text-center">
+                    <h2>В чем выгода покупки авто в США?</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h4>Вы получаете доступ к миллионам автомобилей</h4>
+                        <span>Теперь вам будут доступны самые популярные модели авто в США по ценам, которые выгодно отличаются от украинских</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <h4>Вы экономите 40-60% покупая авто в США</h4>
+                        <span>Цены в США намного ниже, чем в Украине, а благодаря новому закону растоможки, вы сможете оформить авто по более выгодной стоимости</span>
+                    </div>                    
+                    <div class="col-lg-4">
+                        <h4>Вы получаете американское качество</h4>
+                        <span>Для продажи на американском аукционе все автомобили проходят строгий контроль. Проверить точное состояние каждого автомобиля можно с помощью уникального VIN кода</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <span class="pie-chart" data-percent="42" data-color="rgba(243,102,57,1)">
+                            <span class="percent">42</span>
+                            <canvas height="160" width="160"></canvas>
+                        </span>
+                        <h4>Легковые</h4>
+                        <p><b>Volkswagen Passat B7 (2015) </b> <br>
+                            12700$ (ukr) - 7370$ (usa) <br>
+                            Экономия 5330$</p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <span class="pie-chart" data-percent="28" data-color="rgba(243,102,57,0.9)">
+                            <span class="percent">28</span>
+                            <canvas height="160" width="160"></canvas>
+                        </span>
+                        <h4>Электро</h4>
+                        <p><b>Nissan Leaf (2015) </b> <br>
+                            14000$ (ukr) - 10160$ (usa) <br>
+                            Экономия 3840$</p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <span class="pie-chart" data-percent="34" data-color="rgba(243,102,57,0.8)">
+                            <span class="percent">34</span>
+                            <canvas height="160" width="160"></canvas>
+                        </span>
+                        <h4>Гибрид</h4>
+                        <p><b>Toyota Camry (2015)</b> <br>
+                            14000$ (ukr) - 9350$ (usa) <br>
+                            Экономия 4650$</p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <span class="pie-chart" data-percent="23" data-color="rgba(243,102,57,0.7)">
+                            <span class="percent">23</span>
+                            <canvas height="160" width="160"></canvas>
+                        </span>
+                        <h4>Внедорожник</h4>
+                        <p><b>BMW X5 (2015)</b> <br>
+                            41000$ (ukr) - 27500$ (usa) <br>
+                            Экономия 13500$</p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <span class="pie-chart" data-percent="50" data-color="rgba(243,102,57,0.6)">
+                            <span class="percent">50</span>
+                            <canvas height="160" width="160"></canvas>
+                        </span>
+                        <h4>Мото</h4>
+                        <p><b>Suzuki GSX-R 750</b> <br>
+                            8000$ (ukr) - 3980$ (usa) <br>
+                            Экономия 4020$</p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <span class="pie-chart" data-percent="50" data-color="rgba(243,102,57,0.5)">
+                            <span class="percent">50</span>
+                            <canvas height="160" width="160"></canvas>
+                        </span>
+                        <h4>Другое</h4>
+                        <p><b>Название</b> <br>
+                            8000$ (ukr) - 3980$ (usa) <br>
+                            Экономия 4020$</p>
+                    </div>                    
+
+                </div>
+            </div>
+        </section>
+        <!-- #benefit -->
+
+
+        <section id="bestseller" class="equalize">
+
+            <div class="heading-text heading-section text-center">
+                <h2>Горячие предложения</h2>
+                <span class="lead">Автомобили, которые выкупила наша компания и они уже в пути к заказчику!</span>
+            </div>
+
+            <div id="portfolio" class="grid-layout portfolio-3-columns" data-margin="0">
+
+                <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                    <div class="portfolio-item-wrap">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/bestseller/06.jpg" alt=""></a>
+                        </div>
+                        <div class="portfolio-description">
+                            <a href="#">
+                                <h3>FIAT 500e - 13100$</h3>
+                                <span>Год выпуска: 2016 <br> 
+                                    Мощность двигателя: 83 кВт <br> 
+                                    Пробег: 15 930 км 
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                    <div class="portfolio-item-wrap">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/bestseller/01.jpg" alt=""></a>
+                        </div>
+                        <div class="portfolio-description">
+                            <a href="#">
+                                <h3>CHEVROLET BOLT EV PREMIER - 20305$</h3>
+                                <span>Год выпуска: 2017 <br> 
+                                    Мощность двигателя: 150 кВт <br> 
+                                    Пробег: 25 390 км 
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                    <div class="portfolio-item-wrap">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/bestseller/02.jpg" alt=""></a>
+                        </div>
+                        <div class="portfolio-description">
+                            <a href="#">
+                                <h3>NISSAN LEAF 4dr HB SV - 14950$</h3>
+                                <span>Год выпуска: 2016  <br> 
+                                    Мощность двигателя: 80 кВт <br> 
+                                    Пробег: 64 670 км 
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                    <div class="portfolio-item-wrap">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/bestseller/03.jpg" alt=""></a>
+                        </div>
+                        <div class="portfolio-description">
+                            <a href="#">
+                                <h3>FIAT 500e - 13100$</h3>
+                                <span>Год выпуска: 2016 <br> 
+                                    Мощность двигателя: 83 кВт <br> 
+                                    Пробег: 15 930 км 
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                    <div class="portfolio-item-wrap">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/bestseller/04.jpg" alt=""></a>
+                        </div>
+                        <div class="portfolio-description">
+                            <a href="#">
+                                <h3>FIAT 500e - 13100$</h3>
+                                <span>Год выпуска: 2016 <br> 
+                                    Мощность двигателя: 83 кВт <br> 
+                                    Пробег: 15 930 км 
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                    <div class="portfolio-item-wrap">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/bestseller/05.jpg" alt=""></a>
+                        </div>
+                        <div class="portfolio-description">
+                            <a href="#">
+                                <h3>FIAT 500e - 13100$</h3>
+                                <span>Год выпуска: 2016 <br> 
+                                    Мощность двигателя: 83 кВт <br> 
+                                    Пробег: 15 930 км 
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        <!-- #bestseller  -->
+
+
+        <section id="clients" class="p-t-60">
+            <div class="container">
+                <div class="heading-text heading-section text-center">
+                    <h2>Последние отзывы</h2>
+                    <span class="lead">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </span>
+                </div>
+
+                <div class="carousel text-center" data-items="4" data-items-sm="3" data-items-xs="2" data-items-xxs="1" data-margin="20" data-arrows="false" data-autoplay="true" data-autoplay-timeout="3000" data-loop="true">
+
+                    <div class="team-member">
+                        <div class="team-image">
+                            <img src="images/clients/01.png">
+                        </div>
+                        <div class="team-desc">
+                            <h3>Иван Петров</h3>
+                            <span>Автолюбитель</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet. </p>
+                            <div class="align-center">
+                                <a class="btn btn-xs btn-slide btn-light" href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                            </div>
+                            <p><time datetime="2019-02">Февраль 2019</time></p>
+                        </div>
+                    </div>
+                    
+                    <div class="team-member">
+                        <div class="team-image">
+                            <img src="images/clients/02.png">
+                        </div>
+                        <div class="team-desc">
+                            <h3>Ваcилий Сидоров</h3>
+                            <span>Директор</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet. </p>
+                            <div class="align-center">
+                                <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118" style="width: 28px;">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </div>
+                            <p><time datetime="2018-11">Ноябрь 2018</time></p>
+                        </div>
+                    </div>
+                    
+                    <div class="team-member">
+                        <div class="team-image">
+                            <img src="images/clients/03.png">
+                        </div>
+                        <div class="team-desc">
+                            <h3>Мария Васильева</h3>
+                            <span>Менеджер</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet. </p>
+                            <div class="align-center">
+                                <a class="btn btn-xs btn-slide btn-light" href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                            </div>
+                            <p><time datetime="2018-11">Ноябрь 2018</time></p>
+                        </div>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="team-image">
+                            <img src="images/clients/01.png">
+                        </div>
+                        <div class="team-desc">
+                            <h3>Иван Петров</h3>
+                            <span>Автолюбитель</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet. </p>
+                            <div class="align-center">
+                                <a class="btn btn-xs btn-slide btn-light" href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                                <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118" style="width: 28px;">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </div>
+                            <p><time datetime="2018-10">Октябрь 2018</time></p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="all-testimonials">
+                <a href="" class="btn">Все отзывы</a>
+            </div>
+
+        </section>
+        <!-- #clients -->
+
+
+        <footer id="footer" class="inverted">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="widget">
+                                <div class="widget-title"><img src="images/logo.png" alt="Polo Logo"></div>
+                                <p class="desc">Aвто из США. Мы поможем  подобрать и оформить автомобиль, который идеально подойдет именно Вам. Без переплат и наценок, потому что мы ценим каждого клиента. И его деньги тоже.</p>
+                            </div>
+                        </div> 
+                        <div class="col-lg-7">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="widget">
+                                        <div class="widget-title">Меню</div>
+                                        <ul class="list">
+                                            <li><a href="#">О нас</a></li>
+                                            <li><a href="#">Услуги</a></li>
+                                            <li><a href="#">Авто из США, Канады и ЕС</a></li>
+                                            <li><a href="#">Блог</a></li>                                    
+                                            <li><a href="#">Калькулятор разтаможки</a></li>
+                                            <li><a href="#">Контакты</a></li>
+                                        </ul>
+                                    </div>  
+                                </div>
+                
+                                <div class="col-lg-6">
+                                    <div class="widget">
+                                        <div class="widget-title">Контакты</div>
+                                        <ul class="list">                                           
+                                            <li>Украина, г. Одесса </li>
+                                            <li>support@fafa.ua</li>
+                                            <li>Работаем 24/7</li>
+                                        </ul>
+                                    </div>
+                                    <div class="social-icons social-icons-colored">
+                                        <ul>
+                                            <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                            <li class="social-instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                            <li class="social-skype"><a href="#"><i class="fab fa-skype"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-content">
+                <div class="container">
+                    <div class="copyright-text text-center">&copy; 2017-2019 <a href=""> Aвто из США </a></div>
+                </div>
+            </div>
+        </footer>
+        <!-- #footer -->
+
+    </div>
+
+    <div id="robot">
+        <a href="javascript:;" class="wiggle">
+            <img src="images/robot.png" alt="">
+        </a>
+        <span>Есть вопросы?</span>
+        <i class="cls">
+            &#10006;
+        </i>
+    </div>
+    <!-- #robot -->
+
+    <div id="question">
+        <a href="javascript:;">
+            <i class="fa fa-question"></i>
+        </a>
+    </div>
+    <!-- #question -->
+    
+    <a id="scrollTop">
+        <i class="icon-chevron-up1"></i>
+        <i class="icon-chevron-up1"></i>
+    </a>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/functions.js"></script>
+</body>
+
+</html>

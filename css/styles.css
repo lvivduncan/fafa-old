@@ -1,0 +1,735 @@
+
+
+
+@import url('bootstrap.css');
+@import url('animate.css');
+@import url('owlcarousel.css');
+@import url('fontawesome.css');
+@import url('inspiro-icons.css');
+@import url('switch.css');
+@import url('irs.css');
+@import url('style.css');
+@import url('responsive.css');
+
+:root{
+
+    --original:rgba(243,102,57,1);
+    --hover:rgba(180,84,53,1);
+    --ivory:rgba(255,255,240,1); /* ivory */
+    --white:rgba(250,250,250,1);
+    --gray:rgba(240,240,240,1);
+    --dark:rgba(51,51,51,1);
+    --disabled: #999;
+    
+}
+
+.body-inner{
+    overflow: hidden;
+}
+
+/* 80px */
+#header.header-sticky.sticky-active .header-inner, 
+#header.header-sticky.sticky-active #header-wrap{
+    background: url('../images/robo_header.png') center center no-repeat;
+}
+
+
+.heading-text > h2{
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #000;
+    text-transform: uppercase;
+}
+
+.heading-text.heading-section > h2 {
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+.heading-text.heading-section p {
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-weight: 400;
+}
+
+
+/* кнопка телефону з’являється на малому екрані */
+#btn-phone{
+    display: none;
+}
+
+@media(max-width: 420px){
+    #btn-phone{
+        display: block;
+    }
+}
+
+
+/* основні пункти */
+#mainMenu nav > ul > li > a {
+    font-size: 14px;
+    font-weight: 400;
+}
+/* підпункти */
+    #mainMenu nav > ul > li .dropdown-menu > li > a, 
+    #mainMenu nav > ul > li .dropdown-menu > li > span, 
+    #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+/**/
+#shopping-cart{
+    cursor: pointer;
+}
+
+#welcome{
+    padding-bottom: 150px;
+}
+    /**/
+    #four-steps .nav-item{
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    #four-steps-desc .dropcap{
+        margin-top: 0;
+        background: var(--original);
+        color: var(--white);
+    }
+
+    #four-steps-desc .tab-pane{
+        min-height: 160px;
+    }
+
+@keyframes animated_bg {
+    from {  
+        background-position: 100% 0; 
+    }
+    to {
+        background-position: 0 0; 
+    }
+}
+
+@-webkit-keyframes animated_bg {
+    from {  
+        background-position: 100% 0; 
+    }
+    to {
+        background-position: 0 0; 
+    }
+}
+
+
+#about{
+    background: url('../images/robots.jpg') 0 0;
+}
+
+
+
+/**/
+.heading-text.heading-section > h2 {
+    text-transform: uppercase;
+}
+
+
+/**/
+#advantage{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/**/
+    #benefit p{
+        color: var(--dark);
+    }
+    #benefit b{
+        color: #000;
+    }
+    #benefit .percent{
+        width: 160px; 
+        height: 160px; 
+        line-height: 160px;
+    }
+
+
+
+
+/**/
+#clients{
+    background: url('../images/robots.jpg');
+    animation: animated_bg 120s linear infinite;
+}
+
+    .team-member{
+        background: var(--white);
+        box-shadow: 0 0 5px rgba(0,0,0,0.3);
+        
+    }
+    .team-member:hover{
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    .team-desc{
+        padding: 0 10px;
+    }
+        .team-desc span{
+            font-weight: 700;
+            display: block;
+            padding: 0 0 10px;
+        }
+ 
+.all-testimonials{
+    display: flex; 
+    justify-content: center;
+    padding: 10px 0;
+}
+    .all-testimonials a{
+        display: block;
+    }
+
+
+/**/
+#footer .desc{
+    line-height: 2;
+}
+
+#footer .social-icons a .fab{
+    color: var(--white);
+}
+
+#footer .list{
+    color: var(--white);
+}
+
+#footer .list a:hover{
+    color: var(--white);
+}
+
+.copyright-content a:hover{
+    color: var(--white)!important;
+}
+
+
+#robot{
+    position: fixed;
+    top: 50%;
+    margin-top: -50px;
+
+    right: 10px;
+    z-index: 10;
+
+    -webkit-transform: translateX(150px);
+    transform: translateX(150px);
+
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+    #robot a{
+        display: block;
+        text-decoration: none;
+    }
+        #robot img,
+        #robot span{
+            display: block;
+        }
+        #robot span{
+            color: var(--white);
+            background: var(--original);
+            font-weight: bold;
+            padding: 5px;
+            text-align: center;
+            border-radius: 2px;
+        }
+
+    #robot .close {
+        height: 30px;
+        width: 30px;
+        background: var(--red);
+        color: var(--gray);
+        border-radius: 30px;
+        position: absolute;
+        top: -30px;
+        right: 0;
+        cursor: pointer;
+    }
+
+    #robot .close::before {
+        content: '';
+        height: 20px;
+        width: 2px;
+        background: var(--gray);
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 14px;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    #robot .close::after {
+        content: '';
+        height: 20px;
+        width: 2px;
+        background: var(--gray);
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 14px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+#question{
+    position: fixed;
+    top: 50%;
+    right: 170px;
+    z-index: 10;
+    margin-top: -25px;
+    height: 50px;
+    width: 50px;
+    
+    display: block;
+    background: var(--original);
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: 5px solid var(--hover);
+    cursor: pointer;
+
+    -webkit-transform: translateX(250px);
+    transform: translateX(250px);    
+
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+    #question i{
+        font-size: 26px;
+        color: var(--white);
+    }
+
+.wiggle{ 
+    -webkit-animation: wiggle 3s infinite; 
+    animation: wiggle 3s infinite;
+}
+
+@-webkit-keyframes wiggle {
+    0% { 
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    50%{      
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg);   
+    }
+    100% {
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+}
+@keyframes wiggle {
+    0% { 
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    50%{      
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg);   
+    }
+    100% {
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+}
+
+
+
+@media(max-width: 510px){
+    .header-extras .p-dropdown .p-dropdown-content,
+    .header-extras .p-dropdown ul.p-dropdown-content {
+      right: -106px;
+    }
+}
+
+
+/* анімація для фото */
+#post img{
+    max-width: 100%!important;
+    height: auto!important;
+    padding: 0 0 0 20px;
+    border: none;
+    border-left: 1px solid var(--original);
+    -webkit-transition: padding 0.5s;
+    transition: padding 0.5s;
+}
+    #post img:hover{
+        padding: 0 20px 0 0;
+        border-left: none;
+        border-right: 1px solid var(--original);
+    }
+
+
+/* анімація для кнопки */
+#post button,
+#contact button,
+aside button,
+#calc_get_total,
+#calc_get_pdf{
+    -webkit-transition: margin 0.5s;
+    transition: margin 0.5s;
+}
+    #post button:hover,
+    #contact button:hover,
+    aside button:hover,
+    #calc_get_total:hover,
+    #calc_get_pdf:hover{
+        margin-left: 20px;
+    }
+
+
+/* поле у сайдбарі */
+aside textarea,
+#contact textarea,
+#post textarea{
+    min-height: 160px;
+}
+
+
+/**/
+label{
+    cursor: pointer;
+}
+
+
+/* 1 абзац */
+    #post p:first-child{
+        font-weight: 700;
+        color: var(--dark);
+        font-size: 16px;
+        padding: 0 0 30px;
+    }
+
+
+/**/
+
+.icon-box .icon a, .icon-box .icon i{
+    color: var(--original);
+}
+
+.icon-box .icon i:after {
+    box-shadow: 0 0 0 3px var(--original);
+}
+
+
+.post-item .post-item-description > h2 > a:hover{
+    color: var(--original);
+}
+
+.post-image{
+    overflow: hidden;
+}
+
+    .post-image img{
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    .post-image :hover img{
+        -webkit-transform:scale(1.1);
+        transform:scale(1.1);        
+    }
+
+
+/* сайдбар - блог-пост */
+.post-thumbnail-entry img{
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+.post-thumbnail-entry img{
+    padding: 0 0 0 20px;
+    border: none;
+    border-left: 1px solid var(--original);
+    -webkit-transition: padding 0.5s;
+    transition: padding 0.5s;
+}
+
+.post-thumbnail-entry img:hover{
+    padding: 0 20px 0 0;
+    border-left: none;
+    border-right: 1px solid var(--original);
+}
+
+
+.pagination{
+    display: block;
+    text-align: center;
+}
+    .pagination li,
+    .pagination li a{
+            display:inline-block;
+        }
+
+
+.pt-10{
+    padding-top: 10px!important;
+}
+
+#contact legend{
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #444;
+}
+
+
+aside em{
+    text-align: right;
+    display: block;
+}
+
+aside strong{
+    color: var(--original);
+    font-size: 18px;
+}
+
+
+
+
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.form-check {
+    padding-left: 30px;
+}
+
+
+.form-check-label{
+    font-size: 10px!important
+}
+
+
+
+
+
+
+/* calculator */
+#calc{}
+
+#calc input,
+#calc select{
+    border-color: var(--disabled);
+}
+
+#calc input:focus{
+    border-color: var(--original);
+    color: var(--original);
+}
+#calc select:focus{
+    border-color: var(--original);
+}
+
+#calc hr {
+    border-top: 1px dashed var(--disabled);
+}
+
+#calc label{
+    display: block;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 0;
+}
+
+#calc small{
+    font-weight: 600;
+    color: var(--dark);
+    font-size: 13px;
+    /* text-transform: uppercase; */
+}
+    #calc small i{
+        font-size: 14px;
+    }
+
+#calc select{
+    cursor: pointer;
+}
+
+#calc i{
+    font-weight: 800;
+    color: var(--dark); 
+}
+
+#calc input[type="text"],
+#calc input[type="number"]{
+    width: 100%;
+}
+
+/* забираємо стрілочки у поля "намбер" (тільки вебкіт) */
+#calc input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* блок з даними */
+#calc .block{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+/* результат ціни */
+#calc .block span{
+    padding: 0 0 0 20px;
+    font-weight: 700;
+    color: var(--dark); 
+}
+
+/* валюта */
+    #calc #calc_currency{
+        width: 55px;
+    }
+
+/* поле з числом -- справа від назви */
+    #calc input[type="number"]{
+        width: 100px;
+        margin-left: auto;
+        font-weight: 700;
+    }
+
+/* бігунок */
+    #calc input[type="range"]{
+        flex-basis: 100%;
+
+        -webkit-appearance: none;
+        width: 100%;
+        height: 2px;
+        padding: 0;
+        margin-top: 10px;
+        background: var(--original);
+        outline: none;
+        border: none;
+    }
+    
+    #calc input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: var(--white);
+        cursor: pointer;
+        border: 3px solid var(--original);
+    }
+    
+    #calc input[type="range"]::-moz-range-thumb {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: var(--white);
+        cursor: pointer;
+        border: 3px solid var(--original);
+    }
+/* бігунок */
+
+
+
+/* кнопки-перемикачі */
+.radio-group {
+    overflow: hidden;
+    margin-left: auto;
+  }
+
+    .radio-group input[type=radio] {
+        position: absolute;
+        visibility: hidden;
+        display: none;
+    }
+
+    .radio-group label {
+        display: inline-block!important;
+        cursor: pointer;
+        padding: 5px 20px;
+    }
+
+    .radio-group input[type=radio]:checked + label {
+        color: var(--white)!important;
+        background: var(--hover);
+        border-radius: 3px;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    .radio-group input[type=radio]:checked + label:hover{
+        background: var(--original);
+    }    
+
+    .radio-group label + input[type=radio] + label {
+        background: var(--gray);
+    }
+  
+    .radio-group input[type=radio]:disabled + label {
+        color: var(--disabled);
+        
+    }
+
+
+#calc_city_select{
+    width: 55%;
+    margin-left: auto;
+}
+
+#calc_delivery,
+#calc_excise_sum,
+#calc_duty_sum,
+#calc_tax_sum,
+#calc_retiree_sum,
+#calc_voltage_sum,
+#calc_fafa{
+    margin-left: auto;
+}
+
+
+#calc_duty,
+#calc_tax,
+#calc_retiree{
+    padding: 0 5px;
+}
+
+#calc #block_voltage{
+    display: none;
+}
+
+
+/**/
+#calc_total{
+    margin-left: auto;
+    font-size: 20px;
+}
+
+#calc_result{
+    color: var(--original);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
